@@ -1,0 +1,212 @@
+@media all and (max-width: 750px) {
+    .skills {
+        font-size: 0.9em;
+    }
+    .photo-img {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .skills {
+        font-size: 0.7em;
+    }
+    .photo-img {
+        width: 90%;
+    }
+}
+
+#banner {
+    top: 0;
+    background-color: crimson;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-color: #800c24;
+}
+
+.logo {
+    margin: 5px;
+}
+
+.navbar-right li {
+    font-family: "Arial Narrow", monospace;
+    font-size: 12pt;
+}
+
+.navbar-right li:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro-text {
+    background: url("../images/home-background.jpg") fixed center top;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    padding-top: 15%;
+}
+
+.about, .portfolio-block {
+    text-align: center;
+    color: #cec8a8;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding: 1vh 0.75vw 1vh 0.75vw;
+    border-radius: 10px;
+    font-size: 1.1em;
+    max-height: 100%;
+}
+
+.star-bright {
+    border-color: #fff;
+}
+
+.skills {
+    font-size: 1.15em;
+}
+
+.intro-text, .skills, .portfolio-title {
+    text-shadow: 2px 2px 4px #55594b;
+}
+
+.photo-img {
+    margin: 0 auto 0 auto;
+}
+
+.portfolio {
+    background: url("../images/portflio.png") fixed center center;
+    background-size: cover;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 7% 0 2% 0;
+}
+
+.portfolio-block {
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.portfolio-title, .contact-me > .content > .title, .footer-above > .title {
+    font-size: 2.5em;
+    font-family: Georgia, monospace;
+    text-align: center;
+    color: #fff;
+    margin: 2vh auto 0 auto;
+}
+
+.grid {
+    padding: 0;
+    max-width: 90%;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.grid > div > li {
+    padding-bottom: 10px;
+}
+
+.portfolio-img {
+    margin: 0 auto 0 auto;
+    border-radius: 7px;
+}
+
+.portfolio-img:hover {
+    opacity: 0.5;
+}
+
+.contact-me {
+    background: url("../images/contact-me.jpg") fixed center center;
+    background-size: cover;
+    height: 79vh;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+    padding: 7% 0 2% 0;
+}
+
+.contact-me > .content {
+    width: 90vw;
+    margin: 0 auto 0 auto;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.85);
+    padding: 4vw 4vw 0 4vw;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.contact-me > .content > .title, .contact-me > .content > .info, .footer-above > .title {
+    text-shadow: 3px 3px 4px #000000;
+}
+
+.contact-me > .content > .star-bright {
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.75);
+}
+
+.contact-me > .content > .info {
+    color: white;
+    font-size: 1.2em;
+    padding-bottom: 1vw;
+}
+
+.contact-me > .content > .info > p {
+    padding-bottom: 0.5vw;
+}
+
+footer {
+    background-size: cover;
+    background-color: #e70917;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-color: #800c24;
+    bottom: 0;
+}
+
+.footer-above {
+    background-color: #ee7b78;
+    padding-bottom: 1em;
+}
+
+.footer-above > .title {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.social-block {
+    margin: 5px auto 0 auto;
+    width: 252px;
+}
+
+.footer-below {
+    margin: 0.5em 0 0 0;
+    color: white;
+}
+
+.social-btn {
+    margin-right: 10px;
+}
+
+.fa {
+    padding: 12px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none !important;
+    border-radius: 50%;
+    border: solid 3px white;
+    background: #ee7b78;
+}
+
+.fa:hover {
+    background: white;
+}
+
+.fa-facebook:hover {
+    color: #3B5998;
+}
+
+.fa-linkedin:hover {
+    color: rgb(0, 127, 178);
+}
+
+.fa-google-plus:hover {
+    color: red;
+}
+
+.fa-github:hover {
+    color: rgb(102, 43, 129);
+}
