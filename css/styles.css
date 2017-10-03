@@ -37,7 +37,7 @@
 }
 
 .intro-text {
-    background: url("../images/hom-section.jpg") fixed center top;
+    background: url("../images/home-page.jpg") fixed center top;
     background-size: cover;
     height: 100vh;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
@@ -73,7 +73,7 @@
 }
 
 .portfolio {
-    background: url("../images/portfolio-section.jpg") fixed center center;
+    background: url("../images/portfolio-page.jpg") fixed center center;
     background-size: cover;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
     padding: 7% 0 2% 0;
