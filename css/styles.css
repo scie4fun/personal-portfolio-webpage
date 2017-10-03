@@ -1,3 +1,7 @@
+body {
+    background-color: #800c24;
+}
+
 @media all and (max-width: 750px) {
     .skills {
         font-size: 0.9em;
